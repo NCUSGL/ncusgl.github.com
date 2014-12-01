@@ -1,0 +1,104 @@
+body {
+    background: #ffffff url('images/background.jpeg') fixed top center no-repeat;
+    text-align: center;
+    font-family: 'Open Sans', 'Helvetica', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #1a3f71;
+    margin: 0px;
+    padding: 100px 0px;
+}
+
+h1 { 
+    color: #f2f3f2;
+    font-family: 'Luckiest Guy', cursive;
+    text-shadow: 0px 2px 8px #e30000;
+    font-size: 80px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 { 
+    color: #f2f3f2;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+}
+
+.header ul {
+    margin: 30px 0px 30px -20px;
+    padding: 0px;
+}
+
+.header ul li {
+    display: inline;
+    background: #e30000;
+    color: #f2f3f2;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 45px;
+    letter-spacing: 1px;
+    padding-left: 17px;
+    padding-right: 19px;
+}
+
+.header .first {
+    font-size: 25px;
+    padding: 18px 13px;
+}
+
+.body-text {
+    margin: 50px 480px 50px 25px;
+    color: #f2f3f2;
+    background: #e30000;
+    border: 1px dashed #f2f3f2;
+    box-shadow: 0 0 0 4px #ff0030, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+    padding: 0px;
+    padding: 25px;
+    text-align: center;
+}
+
+iframe {
+}
+
+.right {
+    float: right;
+    width: 450px;
+    padding: 0px; 25px;
+    text-align: left;
+}
+
+.right h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.right p {
+    margin: 0px;
+    padding: 5px;
+    color: #f2f3f2;
+    text-shadow: 0px 2px 8px #e30000;
+    margin-bottom: 30px;
+    background-color: rgba(0,0,0, .4);
+    width: 350px;
+}
+
+.right .register {
+    color: #f2f3f2;
+    background: #e30000;
+    border: 1px dashed #f2f3f2;
+    box-shadow: 0 0 0 4px #ff0030, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+    padding: 5px;
+    text-align: center;
+    width: 350px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.right .register:hover {
+    background-color: rgba(10, 10, 0, 0.5);
+}
