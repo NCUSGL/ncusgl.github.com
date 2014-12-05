@@ -52,7 +52,6 @@ h2 {
 }
 
 .body-text {
-    margin: 50px 480px 50px 25px;
     color: #f2f3f2;
     background: #e30000;
     border: 1px dashed #f2f3f2;
@@ -60,16 +59,18 @@ h2 {
     padding: 0px;
     padding: 25px;
     text-align: center;
+    margin: 0px auto;
+    width: 80%;
+    margin-bottom: 20px;
 }
 
 iframe {
 }
 
 .right {
-    float: right;
-    width: 450px;
-    padding: 0px; 25px;
-    text-align: left;
+    width: 50%;
+    text-align: center;
+    margin: 0px auto;
 }
 
 .right h2 {
@@ -101,4 +102,19 @@ iframe {
 
 .right .register:hover {
     background-color: rgba(10, 10, 0, 0.5);
+}
+
+.sponsors {
+    background: #ffffff;
+    width: 50%;
+    margin: 120px auto;
+    padding: 10px;
+}
+
+.sponsors img {
+    margin-right: 30px;
+}
+
+.sponsors h2 {
+    color: #e30000;
 }
