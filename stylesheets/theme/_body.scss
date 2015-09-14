@@ -1,0 +1,55 @@
+// Body
+body {
+  background-color: $gray-darker;
+}
+
+// Headers
+h1 {
+	color: $white;
+}
+
+h2 {
+	color: $gray-lighter;
+}
+
+h3 {
+	color: $gray-dark;
+}
+
+// Text
+p {
+	color: $white-gray;
+}
+
+// Links
+a {
+	color: $yellow;
+}
+
+// Lines
+hr {
+	padding-bottom: 5%;
+}
+
+// Lists
+li {
+	padding-bottom: 2%;
+}
+
+// Links
+.link-gray {
+	color: $gray-light;
+}
+
+// Padding
+.padding-top-small {
+	padding-top: 2.5%;
+}
+
+.padding-top-medium {
+	padding-top: 5%;
+}
+
+.padding-top-large {
+	padding-top: 7%;
+}
